@@ -1,0 +1,64 @@
+@import url(reset.css);
+
+body {
+    font-family: sans-serif;
+    font-size: 50px;
+}
+
+.header, .menu-container, .footer-container, .textContent-container{
+    padding: 0 80px;
+}
+
+.header, .menu-container, .footer-container {
+    background: #E5E000;
+}
+
+.header, .footer-container {
+    height: 200px;
+}
+
+.heroImage {
+    background-image: url(../img/img.png);
+    height: 1080px;
+}
+
+.projectHeading {
+    font-weight: bold;
+}
+
+.projectHeadingWhite {
+    line-height: 200px;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-container {
+    height: 100px;
+}
+
+.projectName {
+    font-size: 25px;
+    line-height: 100px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.textContent-container {
+    padding: 110px 80px 100px 80px;
+}
+
+.mainParagraph {
+    padding-top: 50px;
+    line-height: 57px;
+    font-weight: 100;
+}
+
+.courseName {
+    line-height: 200px;
+    color: white;
+    text-decoration: none;
+    margin-left: 450px;
+    font-weight: bold;
+}
